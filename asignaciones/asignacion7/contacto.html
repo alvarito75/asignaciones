@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div id="container">
+    <h1>&barwed;; Formulario de registro &barwed;</h1>
+   
+   
+    <form action="#" method="post" id="contact_form">
+      <div class="name">
+        <label for="name">Nombre:</label>
+        <input type="text" placeholder="Nombre" name="name"  required>
+      </div>
+      <div class="email">
+        <label for="email">Correo:</label>
+        <input type="email" placeholder="Correo" name="email"  required>
+      </div>
+      <div class="telephone">
+        <label for="name">Telefono</label>
+        <input type="text" placeholder="Numero de celular" name="telephone"  required>
+      </div>
+      <div class="subject">
+        <label for="subject">Registro</label>
+        <select placeholder="Razon de registro" name="subject"  required>
+          <option disabled hidden selected>Razon de registro</option>
+          <option>Iniciar mi propio proyecto</option>
+          <option>Obtener mas informacion</option>
+          <option>Me gustaria observar a la competencia</option>
+        </select>
+      </div>
+      <div class="message">
+        <label for="message">Mensaje</label>
+        <textarea name="message" placeholder="Comentario..." id="message_input" cols="30" rows="5" required></textarea>
+      </div>
+      <div class="date">
+        <label>Fecha: <input type="date" name="Fecha" ></label>
+      </div>
+      <div class="submit">
+        <input name="button2" type="button" 
+onclick='alert("Registraste los datos correctamente")' value="Registrar" id="form_button" />
+        
+      </div>
+    </form><!-- // End form -->
+  </div><!-- // End #container -->
+
+</body>
+</html>
